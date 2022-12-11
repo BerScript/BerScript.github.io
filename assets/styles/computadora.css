@@ -1,0 +1,22 @@
+h1{
+    color: black;
+}
+
+#footer{
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 325px) 50px;
+    padding: 50px 65px 50px 65px;
+}
+#footer section ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    height: 275px;
+}
+#footer section ul li a{
+    margin-top: 5px;
+}
+#footer section:nth-child(4){
+    grid-row: 2 / 3;
+    grid-column: 1 / 4;
+}

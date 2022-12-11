@@ -1,876 +1,492 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Data Bank | Data Privacity. Somos un banco de datos es una recopilación de datos bien organizada y mantenida para facilitar su consulta y uso.</title>
-    <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            background-color: black;
-            color: #00ff01;
-        }
-        body h1{
-            width: 50%;
-            font-size: 26px;
-            text-align: center;
-        }
-        section{
-            width: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-wrap: wrap;
-            font-size: 16px;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="assets/images/logo.png">
+  <title>BerScript | La libreria HTML, CSS y JS del pueblo.</title>
+
+  <!-- Start: estilos -->
+  <link rel="stylesheet" href="assets/styles/origen.css" />
+  <link rel="stylesheet" media="(min-width: 480px)" href="assets/styles/movil.css" />
+  <link rel="stylesheet" media="(min-width: 768px)" href="assets/styles/tableta.css" />
+  <link rel="stylesheet" media="(min-width: 1024px)" href="assets/styles/computadora.css" />
+  <!-- End: estilos -->
+
 </head>
-
 <body>
-    <h1>Un banco de datos es una recopilación de datos bien organizada y mantenida para facilitar su consulta y uso.
-        Este repositorio de datos se hace accesible en servidores locales y remotos.</h1>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <section>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
-        <div class="counter" data-count="100000000000">0</div>
+  <section class="caja">
+
+      <section class="holaMundo">
+        <article>
+          <h2>Hola, mundo</h2>
+        </article>
+        <article>
+          <h2>Hola, mundo</h2>
+        </article>
+        <article>
+          <h2>Hola, mundo</h2>
+        </article>
+      </section>
+
+  </section>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <section class="caja">
+
+      <section class="holaMundo">
+        <article>
+          <h2>Hola, mundo</h2>
+        </article>
+        <article>
+          <h2>Hola, mundo</h2>
+        </article>
+        <article>
+          <h2>Hola, mundo</h2>
+        </article>
+      </section>
+
+  </section>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <section class="caja">
+
+      <section class="holaMundo">
+        <article>
+          <h2>Hola, mundo</h2>
+        </article>
+        <article>
+          <h2>Hola, mundo</h2>
+        </article>
+        <article>
+          <h2>Hola, mundo</h2>
+        </article>
+      </section>
+
+    </article>
+  </section>
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <section class="caja">
+
+      <section class="holaMundo">
+        <article>
+          <h2>Hola, mundo</h2>
+        </article>
+        <article>
+          <h2>Hola, mundo</h2>
+        </article>
+        <article>
+          <h2>Hola, mundo</h2>
+        </article>
+      </section>
+
+  </section>
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <section class="caja">
+
+      <section class="holaMundo">
+        <article>
+          <h2>Hola, mundo</h2>
+        </article>
+        <article>
+          <h2>Hola, mundo</h2>
+        </article>
+        <article>
+          <h2>Hola, mundo</h2>
+        </article>
+      </section>
+
+  </section>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <section class="caja">
+
+      <section class="holaMundo">
+        <article>
+          <h2>Hola, mundo</h2>
+        </article>
+        <article>
+          <h2>Hola, mundo</h2>
+        </article>
+        <article>
+          <h2>Hola, mundo</h2>
+        </article>
+      </section>
+
+  </section>
+
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <footer class="caja">
+    <section class="holaMundo">
+      <article>
+        <h2>Hola, mundo</h2>
+      </article>
+      <article>
+        <h2>Hola, mundo</h2>
+      </article>
+      <article>
+        <h2>Hola, mundo</h2>
+      </article>
     </section>
-    <script>
-        $('.counter').each(function () {
-            var $this = $(this),
-                countTo = $this.attr('data-count');
+  </footer>
+  <footer class="caja">
+        
+    <article id="footer">
+        <section>
+            <div>
+                <p class="subtitulo">Aprende en nuestras redes:</p>
+            </div>
+            <ul>
+                <li>
+                    <a href="https://twitter.com/a" target="_blank">
+                        <img src="assets/images/twitter.svg" alt="@a">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/a/" target="_blank">
+                        <img src="assets/images/instagram.svg" alt="@a">
+                    </a>
+                </li>
+                <li>
+                    <a href="" target="_blank">
+                        <img src="assets/images/facebook.svg" alt="@a">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/@a" target="_blank">
+                        <img src="assets/images/youtube.svg" alt="@a">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/company/a" target="_blank">
+                        <img src="assets/images/linkedin.svg" alt="@a">
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <div>
+                <p>Alojamos proyectos en:</p>
+            </div>
+            <ul>
+                <li>
+                    <a href="https://gitlab.com/a" target="_blank">
+                        <img src="assets/images/gitlab.svg" alt="@a">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/a" target="_blank">
+                        <img src="assets/images/github.svg" alt="@a">
+                    </a>
+                </li>
+                <li>
+                    <a href="1" target="_blank">
+                        <img src="assets/images/download.svg" alt="@a">
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <div>
+                <p>DR, Cofundador de: a</p>
+            </div>
+            <ul>
+                <li>
+                    <a href="https://twitter.com/a" target="_blank">
+                        <img src="assets/images/cofundador.png" alt="@a">
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <p>&copy; 2022 a Todos los derechos reservados</p>
+        </section>
+    </article>
 
-            $({ countNum: $this.text() }).animate({
-                countNum: countTo
-            },
-                {
-                    duration: 5000000000,
-                    easing: 'linear',
-                    step: function () {
-                        $this.text(Math.floor(this.countNum));
-                    },
-                    complete: function () {
-                        $this.text(this.countNum);
-                        //alert('finished');
-                    }
+</footer>
+<footer class="caja">
+        
+  <article id="footer">
+      <section>
+          <div>
+              <p class="subtitulo">Aprende en nuestras redes:</p>
+          </div>
+          <ul>
+              <li>
+                  <a href="https://twitter.com/a" target="_blank">
+                      <img src="assets/images/twitter.svg" alt="@a">
+                  </a>
+              </li>
+              <li>
+                  <a href="https://www.instagram.com/a/" target="_blank">
+                      <img src="assets/images/instagram.svg" alt="@a">
+                  </a>
+              </li>
+              <li>
+                  <a href="" target="_blank">
+                      <img src="assets/images/facebook.svg" alt="@a">
+                  </a>
+              </li>
+              <li>
+                  <a href="https://www.youtube.com/@a" target="_blank">
+                      <img src="assets/images/youtube.svg" alt="@a">
+                  </a>
+              </li>
+              <li>
+                  <a href="https://www.linkedin.com/company/a" target="_blank">
+                      <img src="assets/images/linkedin.svg" alt="@a">
+                  </a>
+              </li>
+          </ul>
+      </section>
+      <section>
+          <div>
+              <p>Alojamos proyectos en:</p>
+          </div>
+          <ul>
+              <li>
+                  <a href="https://gitlab.com/a" target="_blank">
+                      <img src="assets/images/gitlab.svg" alt="@a">
+                  </a>
+              </li>
+              <li>
+                  <a href="https://github.com/a" target="_blank">
+                      <img src="assets/images/github.svg" alt="@a">
+                  </a>
+              </li>
+              <li>
+                  <a href="1" target="_blank">
+                      <img src="assets/images/download.svg" alt="@a">
+                  </a>
+              </li>
+          </ul>
+      </section>
+      <section>
+          <div>
+              <p>DR, Cofundador de: a</p>
+          </div>
+          <ul>
+              <li>
+                  <a href="https://twitter.com/a" target="_blank">
+                      <img src="assets/images/cofundador.png" alt="@a">
+                  </a>
+              </li>
+          </ul>
+      </section>
+      <section>
+          <p>&copy; 2022 a Todos los derechos reservados</p>
+      </section>
+  </article>
 
-                });
+</footer>
+<footer class="caja">
+        
+  <article id="footer">
+      <section>
+          <div>
+              <p class="subtitulo">Aprende en nuestras redes:</p>
+          </div>
+          <ul>
+              <li>
+                  <a href="https://twitter.com/a" target="_blank">
+                      <img src="assets/images/twitter.svg" alt="@a">
+                  </a>
+              </li>
+              <li>
+                  <a href="https://www.instagram.com/a/" target="_blank">
+                      <img src="assets/images/instagram.svg" alt="@a">
+                  </a>
+              </li>
+              <li>
+                  <a href="" target="_blank">
+                      <img src="assets/images/facebook.svg" alt="@a">
+                  </a>
+              </li>
+              <li>
+                  <a href="https://www.youtube.com/@a" target="_blank">
+                      <img src="assets/images/youtube.svg" alt="@a">
+                  </a>
+              </li>
+              <li>
+                  <a href="https://www.linkedin.com/company/a" target="_blank">
+                      <img src="assets/images/linkedin.svg" alt="@a">
+                  </a>
+              </li>
+          </ul>
+      </section>
+      <section>
+          <div>
+              <p>Alojamos proyectos en:</p>
+          </div>
+          <ul>
+              <li>
+                  <a href="https://gitlab.com/a" target="_blank">
+                      <img src="assets/images/gitlab.svg" alt="@a">
+                  </a>
+              </li>
+              <li>
+                  <a href="https://github.com/a" target="_blank">
+                      <img src="assets/images/github.svg" alt="@a">
+                  </a>
+              </li>
+              <li>
+                  <a href="1" target="_blank">
+                      <img src="assets/images/download.svg" alt="@a">
+                  </a>
+              </li>
+          </ul>
+      </section>
+      <section>
+          <div>
+              <p>DR, Cofundador de: a</p>
+          </div>
+          <ul>
+              <li>
+                  <a href="https://twitter.com/a" target="_blank">
+                      <img src="assets/images/cofundador.png" alt="@a">
+                  </a>
+              </li>
+          </ul>
+      </section>
+      <section>
+          <p>&copy; 2022 a Todos los derechos reservados</p>
+      </section>
+  </article>
 
-        });
-    </script>
+</footer>
+<footer class="caja">
+        
+  <article id="footer">
+      <section>
+          <div>
+              <p class="subtitulo">Aprende en nuestras redes:</p>
+          </div>
+          <ul>
+              <li>
+                  <a href="https://twitter.com/a" target="_blank">
+                      <img src="assets/images/twitter.svg" alt="@a">
+                  </a>
+              </li>
+              <li>
+                  <a href="https://www.instagram.com/a/" target="_blank">
+                      <img src="assets/images/instagram.svg" alt="@a">
+                  </a>
+              </li>
+              <li>
+                  <a href="" target="_blank">
+                      <img src="assets/images/facebook.svg" alt="@a">
+                  </a>
+              </li>
+              <li>
+                  <a href="https://www.youtube.com/@a" target="_blank">
+                      <img src="assets/images/youtube.svg" alt="@a">
+                  </a>
+              </li>
+              <li>
+                  <a href="https://www.linkedin.com/company/a" target="_blank">
+                      <img src="assets/images/linkedin.svg" alt="@a">
+                  </a>
+              </li>
+          </ul>
+      </section>
+      <section>
+          <div>
+              <p>Alojamos proyectos en:</p>
+          </div>
+          <ul>
+              <li>
+                  <a href="https://gitlab.com/a" target="_blank">
+                      <img src="assets/images/gitlab.svg" alt="@a">
+                  </a>
+              </li>
+              <li>
+                  <a href="https://github.com/a" target="_blank">
+                      <img src="assets/images/github.svg" alt="@a">
+                  </a>
+              </li>
+              <li>
+                  <a href="1" target="_blank">
+                      <img src="assets/images/download.svg" alt="@a">
+                  </a>
+              </li>
+          </ul>
+      </section>
+      <section>
+          <div>
+              <p>DR, Cofundador de: a</p>
+          </div>
+          <ul>
+              <li>
+                  <a href="https://twitter.com/a" target="_blank">
+                      <img src="assets/images/cofundador.png" alt="@a">
+                  </a>
+              </li>
+          </ul>
+      </section>
+      <section>
+          <p>&copy; 2022 a Todos los derechos reservados</p>
+      </section>
+  </article>
+
+</footer>
+
 </body>
-
 </html>
